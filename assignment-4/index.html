@@ -10,10 +10,11 @@
       div {width:32%;display:inline-block;vertical-align:text-top;}
       table, td, th {
       /* -- Step 16 -- */
-
-
-
+      border: 2px solid gray;
+      border-collapse: collapse;
+      padding: 5px;
       }
+
     </style>
   </head>
 
@@ -28,7 +29,7 @@
 
     <main>
       <!-- Step 1 -->
-<form action="http://www.example.com/register.php" method="get">
+<form action="http://www.example.com/register.php" method="get" />
 
       <!-- Part 1: Basic Info -->
       <fieldset>
@@ -156,19 +157,60 @@
 
       <!-- Part 3: Course Offerings -->
       <!-- Steps 13-18 -->
-
+<fieldset>
+  <legend>Offerings and Availability</legend>
 
         <!-- Step 19 -->
         <table>
-
+          <tr>
+            <th></th>
+            <th scope="col">Spring Semester</th>
+            <th scope="col">Summer Session</th>
+            <th scope="col">Autumn Semester</th>
+            <th scope="col">Winter Session</th>
+            <th scope="col">Special Session</th>
+          </tr>
+          <tr>
+            <th scope="row">Times(PM)</th>
+            <td>M,W 12:00-2:00</td>
+            <td>F 5:30-9:30</td>
+            <td>M,W 12:00-2:00</td>
+            <td>F 12:00-4:00</td>
+            <td>TBA</td>
+          </tr>
+          <tr>
+            <th scope="row">Seats Available</th>
+            <td>12/60</td>
+            <td>FULL</td>
+            <td>FULL</td>
+            <td>2/60</td>
+            <td>60/60</td>
+          </tr>
         </table>
-        <p>Yes! Sign me up for weekly e-mail alerts.
-
+        <p>Username:
+        <input type="text" name="username" required="required" />
         </p>
+        <p>Password:
+          <input type="password" name="password" required="required" />
+        </p>
+        <p>Yes! Sign me up for weekly e-mail alerts.
+          <input type="checkbox" name="newsletter" value="yes" checked="checked" />
+        </p>
+<form
+action="https://www.example.com/subscribe.php"
+method="post" />
+  <input type="image"
+  src="./images/reg-button.png"
+  alt="Register Button Image" width="100" height="20" />
 
-</form>
+</fieldset>
+
     </main>
     <!-- Step 20 -->
-
+    <p>
+      <img src="./images/registration-station.webp"
+      alt="Image of Computer for registering"
+      title="Register Today!" width="500" height="333" />
+    </p>  
   </body>
 </html>
