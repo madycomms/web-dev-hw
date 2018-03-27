@@ -36,18 +36,52 @@
         text-align: center;
         color: purple;
       }
+      div {
+        width: 50%;
+        display: inline-block;
+        vertical-align: text-top;
+      }
     </style>
   </head>
 
   <body>
     <nav id="main">
       <ul id="main-nav">
-        <li><a href="./pages/home">Home</a></li>
-        <li><a href="./pages/about">About</a></li>
-        <li><a href="./pages/contact">Contact</a></li>
+        <li><a href="./pages/index.html">Home</a></li>
+        <li><a href="./pages/about.html">About</a></li>
+        <li><a href="./pages/contact.html">Contact</a></li>
       </ul>
     </nav>
 
     <hr />
+
+    <div id="subscribe" class="behind-text padded">
+      <h1>Want to subscribe to receive <i><b>weekly</b></i> cookie recipes?</h1>
+
+    <p>Name:
+      <input type="text" name="First" id="name-first" placeholder="First" />
+      <input type="text" name="Last" id="name-last" placeholder="Last" />
+    </p>
+
+    <p>E-mail:
+      <input type="email" name="email" placeholder="you@email.com" />
+    </p>
+
+    <p>Yes! Sign me up for weekly e-mail alerts for when the recipe is posted!
+      <input type="checkbox" name="newsletter" value="yes" checked="checked" />
+    </p>
+
+    <form
+    action="https://www.example.com/subscribe.php"
+    method="post" />
+      <input type="image"
+      src="./images/reg-button.png"
+      alt="register Button Image" width="100" height="20" />
+    </div>
+
+    <p>Any comments or complaints?
+      <textarea name="comments" id="test-textarea" rows="2" cols="30">I thought these cookies were...</textarea>
+    </p>
+    
   </body>
   </html>
