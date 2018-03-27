@@ -47,9 +47,9 @@
   <body>
     <nav id="main">
       <ul id="main-nav">
-        <li><a href="./pages/index.html">Home</a></li>
-        <li><a href="./pages/about.html">About</a></li>
-        <li><a href="./pages/contact.html">Contact</a></li>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./contact.html">Contact</a></li>
       </ul>
     </nav>
 
@@ -71,17 +71,20 @@
       <input type="checkbox" name="newsletter" value="yes" checked="checked" />
     </p>
 
-    <form
-    action="https://www.example.com/subscribe.php"
-    method="post" />
-      <input type="image"
-      src="./images/reg-button.png"
-      alt="register Button Image" width="100" height="20" />
     </div>
 
-    <p>Any comments or complaints?
-      <textarea name="comments" id="test-textarea" rows="2" cols="30">I thought these cookies were...</textarea>
-    </p>
-    
+    <fieldset>
+
+    <legend>Any comments or complaints?</legend>
+      <textarea name="comments" id="test-textarea" rows="3" cols="30">I thought these cookies were...</textarea>
+      <form
+      action="https://www.example.com/subscribe.php"
+      method="post" />
+        <input type="image"
+        src="./images/reg-button.png"
+        alt="Register Button Image" width="100" height="20" />
+
+      </fieldset>
+
   </body>
   </html>
