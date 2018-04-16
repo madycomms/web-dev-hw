@@ -15,10 +15,13 @@ div {
   vertical-align:text-top;
   color:white;
   text-align:center;
+  background-color: white;
+  opacity:.5%;
+  margin: 2px auto 2px auto;
 }
 h1 {
   color:#2efaff;
-  font-size: 300%;
+  font-size: 400%;
   text-align: center;
 }
 .behind-text {
