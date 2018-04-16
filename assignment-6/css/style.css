@@ -6,7 +6,7 @@ body {
   opacity: .5%;
 }
 img {
-  margin:auto;
+  margin: 2px auto 2px auto;
 }
 div {
   width:32%;
@@ -28,7 +28,7 @@ h1 {
   solid white;
   border-collapse: collapse;
   padding:5px;
-  opacity: inherit;
+  opacity: .5%;
 }
 h2 {
   color:#2bfc26;
