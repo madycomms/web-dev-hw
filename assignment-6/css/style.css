@@ -8,7 +8,7 @@ body {
 img {
   margin: 2px auto 2px auto;
 }
-div {
+div.behind-text {
   width:32%;
   height:50%;
   display: inline-block;
