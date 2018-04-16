@@ -15,7 +15,8 @@ div.behind-text {
   vertical-align:text-top;
   color:white;
   text-align:center;
-  background-color: rgba(0,0,0,.2) !important;
+  background-color: rgba(0,0,0,.25) !important;
+  /*struggled with getting opacity to work as it's own element, changed format. */
   margin: 2px auto 2px auto;
 }
 h1 {
