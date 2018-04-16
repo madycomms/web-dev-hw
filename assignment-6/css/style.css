@@ -14,13 +14,14 @@ div {
   vertical-align:text-top;
   color:white;
   text-align:center;
+  position:absolute;
 }
 h1 {
   color:#2efaff;
   font-size: 300%;
   text-align: center;
 }
-.behind-text padded {
+.behind-text {
   border: 2px
   solid white;
   border-collapse: collapse;
@@ -30,4 +31,8 @@ h2 {
   color:#2bfc26;
   font-size: 100%;
   text-align: center;
+}
+p {
+  color:rgb(0,0,0);
+  text-align:center;
 }
