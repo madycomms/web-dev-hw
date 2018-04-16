@@ -1,0 +1,21 @@
+* {
+  font-family: impact
+}
+body {
+  background-image: url(http://4.bp.blogspot.com/-UaUsWdWmzSE/VftZBsX3RqI/AAAAAAAADJE/7reyNr7aJQM/s1600/Dripping%2BGreen%2BSlime.png); opacity: .5%;
+}
+img {
+  margin:auto;
+}
+div {
+  width:32%; display: inline-block; vertical-align:text-top; color:white; text-align:center;
+}
+h1 {
+  color:#2efaff; font-size: 300%;
+}
+.behind-text padded {
+  border: 2px solid white; border-collapse: collapse; padding:5px;
+}
+h2 {
+  color:#2bfc26; font-size: 100%; text-align: center;
+}
