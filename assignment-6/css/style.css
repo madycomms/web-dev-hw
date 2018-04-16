@@ -16,6 +16,7 @@ div {
   color:white;
   text-align:center;
   background-color: white;
+  opacity: .5% !important;
   margin: 2px auto 2px auto;
 }
 h1 {
@@ -28,7 +29,7 @@ h1 {
   solid white;
   border-collapse: collapse;
   padding:5px;
-  opacity: .5%;
+  opacity: inherit;
 }
 h2 {
   color:#2bfc26;
