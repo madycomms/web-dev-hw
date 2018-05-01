@@ -1,0 +1,41 @@
+html {
+  padding: 1px;
+  background-color: silver
+}
+
+* {
+  line-height: 1.45em;
+}
+#header {
+  border: 5px solid black;
+  margin: auto;
+  padding: 10px;
+  background-color: rgba(129,11,11,.5);
+}
+
+.body {
+  border: 5px solid black;
+  margin: auto;
+  padding: 10px
+  background-color: rgba(129,11,11,.5);
+  text-align: justify;
+}
+
+.button {
+  font-size: 120%
+  color: black;
+  font-weight: 200;
+  text-align: center;
+}
+
+.button:hover {
+  color: white;
+}
+.button:active {
+  color: powderblue;
+}
+.button:visited {
+  color: purple;
+  border-color: #383636 #8f8b8b #8f8b8b #383636;
+  border-width: 15px 9px 9px 15px;
+}

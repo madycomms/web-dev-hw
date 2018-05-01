@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'lato', serif;
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.googleapis.com/css?family=Lato) format('truetype');
+}
+
+@font-face {
+  font-family: 'merriweather', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.googleapis.com/css?family=Merriweather) format('truetype');
+}
