@@ -32,6 +32,13 @@ div {
   text-align: justify;
 }
 
+.body p:first-child: ::first-letter {
+  color:rgb(62,6,6);
+  font-family: 'Kumar One Outline', cursive;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
 .button {
   font-size: 150%
   color: black;
