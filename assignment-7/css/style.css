@@ -5,8 +5,16 @@ html {
 
 * {
   line-height: 1.45em;
+  text-align: justify;
 }
+
+div {
+  background-color: rgba(129,11,11,.5);
+}
+
 #header {
+  font-family: 'lato', cursive;
+  font-weight: normal;
   border: 5px solid black;
   margin: auto;
   padding: 10px;
@@ -14,6 +22,7 @@ html {
 }
 
 .body {
+  font-family: 'merriweather';
   border: 5px solid black;
   margin: auto;
   padding: 10px
