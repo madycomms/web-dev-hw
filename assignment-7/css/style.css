@@ -1,16 +1,15 @@
 html {
   padding: 1px;
   background-color: silver;
-  text-align: justify;
 }
 
 * {
   line-height: 1.45em;
-  text-align: justify;
 }
 
 div {
   background-color: rgba(129,11,11,.5);
+  padding: inherit;
 }
 
 #header {
@@ -21,6 +20,7 @@ div {
   padding: 10px;
   background-color: rgba(129,11,11,.5);
   text-align: center !important;
+  color:rgb(62, 6, 6);
 }
 
 .body {
@@ -33,7 +33,7 @@ div {
 }
 
 .button {
-  font-size: 120%
+  font-size: 150%
   color: black;
   font-weight: 200;
   text-align: center;
