@@ -6,4 +6,4 @@ Because I felt held back from using crazy fonts, I chose to go with colors such 
 
 There are three different types of fonts, a system based font, web font, and web-safe font. A system font changes depending on the system that the user is rendering. Therefore, mac and windows have different fonts. contrasting this, there are fonts available for download, but it is not guaranteed that it will be viewed the same on all browsers. Further, it is important to have a fallback font, so that the page is viewed ideally how the developer wants their page to be viewed.
 
-![Image of My Atom Editor](.images/cycle.PNG)
+![Image of My Atom Editor](./images/cycle.PNG)
