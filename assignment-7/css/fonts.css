@@ -2,12 +2,12 @@
   font-family: 'lato', sans-serif;
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/Lato-Regular.ttf') format('truetype');
+  src: url('../fonts/Lato-Regular.ttf') format('opentype');
 }
 
 @font-face {
   font-family: 'merriweather', sans-serif;
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/Merriweather-Regular.ttf') format('truetype');
+  src: url('../fonts/Merriweather-Regular.ttf') format('opentype');
 }

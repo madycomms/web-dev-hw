@@ -1,6 +1,7 @@
 html {
   padding: 1px;
-  background-color: silver
+  background-color: silver;
+  text-align: justify;
 }
 
 * {
