@@ -1,0 +1,183 @@
+body {
+  background-color: FDFDF1;
+}
+.woman {
+  position: absolute;
+  left: 40px;
+  top: 70px;
+  width: 503px;
+  height: 1200px;
+  z-index: 3;
+}
+.filterqueen-text{
+  position: absolute;
+  left: 450px;
+  top: 350px;
+  width: 900px;
+  height: 500px;
+  transform: scaleY(1.5);
+  z-index 2;
+}
+.sub-text{
+  position: absolute;
+  left: 420px;
+  top: 475px;
+  width: 900px
+  height: 500px
+  transform: scaleY(1.5);
+  z-index: 2;
+}
+.scene{
+  position: absolute;
+  left: 26px;
+  top: 950px;
+  width: 420px;
+  height: 275px;
+  z-index: 2;
+}
+.textblock1{
+  position: absolute;
+  left: 20px;
+  top: 1250px;
+  width: 500px;
+  height: 200px;
+  z-index: 3;
+}
+.filterqueen{
+  position: absolute;
+  left: 26px;
+  top: 100px;
+  width: 420;
+  height: 275;
+}
+.textblock2{
+  position: absolute;
+  left: 5px;
+  top: 400px;
+  width: 500;
+  height: 20x;
+}
+.leftdist{
+  position: absolute;
+  left: 300px;
+  top: 10px;
+  width: 550;
+  height: 500;
+  transform: rotate(-12deg);
+  z-index: 2;
+}
+.rightdist{
+position: absolute;
+left: 475px;
+top: 75px;
+width: 550;
+height: 500;
+transform: rotate(12deg);
+z-index: 2;
+}
+.bottom{
+    position: absolute;
+    left: 300px;
+    top: 270px;
+    width: 900;
+    height: 500;
+    transform: scaleY(1.5);
+    z-index: 2;
+}
+.icon-inside{
+  position: absolute;
+  left: 375px;
+  top: 450px;
+  width: 100;
+  height: 100;
+}
+.icon-wastebasket{
+  position: absolute;
+  left: 375px;
+  top: 750px;
+  width: 100;
+  height: 100;
+}
+
+
+.icon-outside {
+  position: absolute;
+  left: 375px;
+  top: 600px;
+  width: 100;
+  height: 100;
+}
+
+.icon-inside-text{
+  position: absolute;
+  left: 500px;
+  top: 400px;
+  width: 300;
+  height: 100;
+}
+
+.icon-outside-text{
+  position: absolute;
+  left: 500px;
+  top: 550px;
+  width: 300;
+  height: 100;
+}
+
+.icon-wastebasket-text{
+  position: absolute;
+  left: 500px;
+  top: 700px;
+  width: 300;
+  height: 100;
+}
+
+
+h1{
+  font-style: italic;
+  color: red;
+  font-size:50px;
+}
+.textblock3{
+  position: absolute;
+  left: 500;
+  top:923;
+  width: 400;
+  height: 500;
+  z-index: 2;
+}
+.logo{
+  position: absolute;
+  left: 425;
+  top:1200;
+  width: 525;
+  height: 325;
+  z-index: 2;
+}
+
+.guarantee{
+  position: absolute;
+  left: 600;
+  top:1470;
+  width: 300;
+  height: 100;
+  z-index: 2;
+}
+
+.coupon {
+  position: absolute;
+  left: 525px;
+  top: 1575px;
+  width: 356;
+  height: 199;
+  z-index: 1;
+  padding-left: 13px;
+  border: 5px dashed black;
+}
+.footer {
+    position: absolute;
+    left: 11px;
+    top: 1695px;
+	width: 800;
+	height: 370;
+	padding:5px;

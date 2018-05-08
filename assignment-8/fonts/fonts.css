@@ -1,0 +1,50 @@
+font.text-block1{
+  font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+  font-weight: bold;
+  line-height: 20px;
+  word-spacing: 1.5px;
+}
+
+font.text-block2{
+  font-family: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  word-spacing: inherit;
+}
+
+font.leftdist{
+  font-family: 'Forte';
+  src: url('./fonts/forte.ttf');
+  font-size: 72px;
+  color: #303f44;
+  letter-spacing: 2px;
+}
+
+font.rightdist{
+  font-family: 'Forte';
+  src: url('.fonts/forte.tff');
+  font-size: 72px;
+  color: #303f44;
+  letter-spacing:2px
+}
+
+font.bottom{
+  font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+  font-weight: bold;
+  line-height: 20px;
+  word-spacing: 1.5px;
+}
+
+font.filterqueen-text{
+  font-family: 'Forte';
+  src: url('./fonts/forte.ttf');
+  font-size: 75px;
+  color: black;
+}
+
+font.sub-text{
+  font-family: 'Forte';
+  src: url('.fonts/forte.tff');
+  font-size: 30px;
+  color: black;
+}
