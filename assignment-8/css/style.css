@@ -9,73 +9,74 @@ body {
   height: 1200px;
   z-index: 3;
 }
-.filterqueen-text{
+.filterqueen-text {
   position: absolute;
-  left: 450px;
-  top: 350px;
-  width: 900px;
-  height: 500px;
+  left: 376px;
+  top: 260px;
+  width: 400px;
+  height: 100px;
   transform: scaleY(1.5);
-  z-index 2;
+  z-index 1;
+  padding: 40px;
 }
-.sub-text{
+.sub-text {
   position: absolute;
-  left: 420px;
-  top: 475px;
-  width: 900px
-  height: 500px
-  transform: scaleY(1.5);
-  z-index: 2;
+  left: 378px;
+  top: 372px;
+  width: 600;
+  height: 200;
+  font-style: italic;
 }
-.scene{
+.scene {
   position: absolute;
   left: 26px;
-  top: 950px;
-  width: 420px;
-  height: 275px;
+  top: 898px;
+  width: 500;
+  height: 300;
   z-index: 2;
 }
-.textblock1{
+.textblock1 {
   position: absolute;
   left: 20px;
-  top: 1250px;
-  width: 500px;
-  height: 200px;
-  z-index: 3;
-}
-.filterqueen{
-  position: absolute;
-  left: 26px;
-  top: 100px;
-  width: 420;
-  height: 275;
-}
-.textblock2{
-  position: absolute;
-  left: 5px;
-  top: 400px;
+  top: 1155px;
   width: 500;
-  height: 20x;
+  height: 200;
 }
-.leftdist{
+.filterqueen {
   position: absolute;
-  left: 300px;
-  top: 10px;
+  left: 56px;
+  top: 1294px;
+  width: 500;
+  height: 300;
+  z-index: 2;
+}
+.textblock2 {
+  position: absolute;
+  left: 23px;
+  top: 1540px;
+  width: 500;
+  height: 200;
+  z-index: 2;
+}
+.leftdist {
+  position: absolute;
+  left: 340px;
+  top: 30px;
   width: 550;
   height: 500;
   transform: rotate(-12deg);
   z-index: 2;
 }
-.rightdist{
+.rightdist {
 position: absolute;
-left: 475px;
-top: 75px;
+left: 500px;
+top: 90px;
 width: 550;
 height: 500;
 transform: rotate(12deg);
 z-index: 2;
 }
-.bottom{
+.bottom {
     position: absolute;
     left: 300px;
     top: 270px;
@@ -84,90 +85,96 @@ z-index: 2;
     transform: scaleY(1.5);
     z-index: 2;
 }
-.icon-inside{
+.icon-inside {
   position: absolute;
-  left: 375px;
-  top: 450px;
-  width: 100;
-  height: 100;
+  left: 363px;
+  top: 447px;
+  width: 500;
+  height: 300;
+  z-index: 1;
 }
-.icon-wastebasket{
+.icon-wastebasket {
   position: absolute;
-  left: 375px;
-  top: 750px;
-  width: 100;
-  height: 100;
+  left: 377px;
+  top: 737px;
+  width: 500;
+  height: 300;
+  z-index: 1;
 }
 
 
 .icon-outside {
   position: absolute;
-  left: 375px;
-  top: 600px;
-  width: 100;
-  height: 100;
+  left: 368px;
+  top: 573px;
+  width: 500;
+  height: 300;
+  z-index: 1;
 }
 
-.icon-inside-text{
+.icon-inside-text {
   position: absolute;
-  left: 500px;
-  top: 400px;
-  width: 300;
-  height: 100;
+  left: 565px;
+  top: 487px;
+  width: 500;
+  height: 300;
+  z-index: 1;
 }
 
-.icon-outside-text{
+.icon-outside-text {
   position: absolute;
-  left: 500px;
-  top: 550px;
-  width: 300;
-  height: 100;
+  left: 563px;
+  top: 620px;
+  width: 500;
+  height: 300;
+  z-index: 1;
 }
 
-.icon-wastebasket-text{
+.icon-wastebasket-text {
   position: absolute;
-  left: 500px;
-  top: 700px;
-  width: 300;
-  height: 100;
+  left: 5662px;
+  top: 730px;
+  width: 500;
+  height: 300;
+  z-index: 1;
 }
 
 
-h1{
+h1 {
   font-style: italic;
   color: red;
   font-size:50px;
 }
-.textblock3{
+.textblock3 {
   position: absolute;
-  left: 500;
-  top:923;
-  width: 400;
-  height: 500;
-  z-index: 2;
+  left: 415px;
+  top: 890px;
+  width: 370;
+  height: 370;
+  padding: 5px;
 }
-.logo{
+.logo {
   position: absolute;
-  left: 425;
-  top:1200;
-  width: 525;
-  height: 325;
+  left: 298px;
+  top:1230px;
+  width: 500;
+  height: 300;
   z-index: 2;
 }
 
-.guarantee{
+.guarantee {
   position: absolute;
-  left: 600;
-  top:1470;
-  width: 300;
-  height: 100;
-  z-index: 2;
+  left: 650px;
+  top:1412px;
+  width: 500;
+  height: 300;
+  z-index: 3;
 }
 
 .coupon {
   position: absolute;
-  left: 525px;
-  top: 1575px;
+  left: 398px;
+  top: 1486px;
   width: 356;
   height: 199;
   z-index: 1;
@@ -181,3 +188,4 @@ h1{
 	width: 800;
 	height: 370;
 	padding:5px;
+}

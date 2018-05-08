@@ -48,3 +48,8 @@ font.sub-text{
   font-size: 30px;
   color: black;
 }
+font.footer {
+  font-size: 20;
+  line-height: 20px;
+  word-spacing: 1.5px;
+}
