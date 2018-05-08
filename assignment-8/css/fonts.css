@@ -1,55 +1,114 @@
-font.text-block1{
-  font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
-  font-weight: bold;
-  line-height: 20px;
-  word-spacing: 1.5px;
+@font-face {
+	font-family: 'Meridien-Medium', serif;
+	src: url("./fonts/Meridien-Medium.ttf");
+}
+font.small {
+	font-family: 'Meridien-Medium', serif;
+	font-size: 90%;
+}
+font {
+	font-family: 'Meridien-Medium', serif;
+	font-size: 1.1em;
+	color: #303f44;
+	font-weight: bold;
+	line-height: 27px;
+	letter-spacing: .55px;
+	word-spacing: 3.5px;
+}
+font.text-block1 {
+	font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+	src: url("./fonts/ARLRDBD.TTF");
+	font-size: 15;
+	color: #303f44;
+	font-weight: bold;
+	line-height: 20px;
+	word-spacing: 1.5px;
 }
 
-font.text-block2{
-  font-family: inherit;
-  font-weight: inherit;
-  line-height: inherit;
-  word-spacing: inherit;
+font.text-block1a {
+	font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+	src: url("./fonts/ARLRDBD.TTF");
+	font-size: 13;
+	color: #303f44;
+	font-weight: bold;
+	line-height: 14px;
+	word-spacing: 1.5px;
 }
 
-font.leftdist{
-  font-family: 'Forte';
-  src: url('./fonts/forte.ttf');
-  font-size: 72px;
-  color: #303f44;
-  letter-spacing: 2px;
+font.filterqueen-text {
+	font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+	src: url("./fonts/ARLRDBD.TTF");
+	font-size: 42;
+	color: #ffffff;
+	font-weight: bold;
+	line-height: 20px;
+	word-spacing: 1.5px;
+    font-style: italic;
+}
+
+font.sub-text {
+	font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+	src: url("./fonts/ARLRDBD.TTF");
+	font-size: 26;
+	color: #303f44;
+	font-weight: bold;
+	line-height: 20px;
+	word-spacing: 1.5px;
+}
+
+font.text-block2 {
+	font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+	src: url("./fonts/ARLRDBD.TTF");
+	font-size: 14;
+	color: #303f44;
+	font-weight: bold;
+	line-height: 20px;
+	word-spacing: 1.5px;
+}
+
+font.footer {
+	font-size: 20;
+	line-height: 20px;
+	word-spacing: 1.5px;
+}
+
+h1 {
+    font-family: 'Forte';
+    src: url('./fonts/forte.ttf');
+	font-size: 62px;
+	color: #ed1701;
+}
+
+font.icon-inside-text {
+	font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+	src: url("./fonts/ARLRDBD.TTF");
+	font-size: 15px;
+	color: #303f44;
+	letter-spacing: .065px;
+	line-height: 20px;
+	word-spacing: .5px;
+}
+
+font.leftdist {
+    font-family: 'Forte';
+    src: url('./fonts/forte.ttf');
+	font-size: 72px;
+	color: #303f44;
+	letter-spacing: 2px;
+
 }
 
 font.rightdist{
-  font-family: 'Forte';
-  src: url('.fonts/forte.tff');
-  font-size: 72px;
-  color: #303f44;
-  letter-spacing:2px
+    font-family: 'Forte';
+    src: url('./fonts/forte.ttf');
+	font-size: 72px;
+	color: #303f44;
+	letter-spacing: 1.5px;
 }
 
 font.bottom{
-  font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
-  font-weight: bold;
-  line-height: 20px;
-  word-spacing: 1.5px;
-}
-
-font.filterqueen-text{
-  font-family: 'Forte';
-  src: url('./fonts/forte.ttf');
-  font-size: 75px;
-  color: black;
-}
-
-font.sub-text{
-  font-family: 'Forte';
-  src: url('.fonts/forte.tff');
-  font-size: 30px;
-  color: black;
-}
-font.footer {
-  font-size: 20;
-  line-height: 20px;
-  word-spacing: 1.5px;
+    font-family: 'Forte';
+    src: url('./fonts/forte.ttf');
+	font-size: 47px;
+	color: #303f44;
 }
